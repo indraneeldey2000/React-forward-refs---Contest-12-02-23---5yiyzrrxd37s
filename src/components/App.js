@@ -13,7 +13,7 @@ const App = () => {
     <button id="settingValueButton" onClick={settingValue}>Set Value</button>
     <button id="focusInputButton" onClick={focusInput}>Focus the input</button><br/><br/>
      <textarea id="textarea" value={values}></textarea>
-
+     document.getElementById
     </div>
   );
 }
